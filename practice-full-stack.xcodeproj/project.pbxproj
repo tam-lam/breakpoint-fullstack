@@ -56,15 +56,55 @@
 		B83BC07F221AB1E7001C8B77 /* practice-full-stack */ = {
 			isa = PBXGroup;
 			children = (
+				B83BC098221AB23B001C8B77 /* Services */,
+				B83BC097221AB227001C8B77 /* Extensions */,
+				B83BC096221AB206001C8B77 /* Model */,
+				B83BC095221AB201001C8B77 /* View */,
+				B83BC094221AB1F4001C8B77 /* Controller */,
 				B83BC080221AB1E7001C8B77 /* AppDelegate.swift */,
-				B83BC082221AB1E7001C8B77 /* FirstViewController.swift */,
-				B83BC084221AB1E7001C8B77 /* SecondViewController.swift */,
 				B83BC086221AB1E7001C8B77 /* Main.storyboard */,
 				B83BC089221AB1E8001C8B77 /* Assets.xcassets */,
 				B83BC08B221AB1E8001C8B77 /* LaunchScreen.storyboard */,
 				B83BC08E221AB1E8001C8B77 /* Info.plist */,
 			);
 			path = "practice-full-stack";
+			sourceTree = "<group>";
+		};
+		B83BC094221AB1F4001C8B77 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B83BC082221AB1E7001C8B77 /* FirstViewController.swift */,
+				B83BC084221AB1E7001C8B77 /* SecondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B83BC095221AB201001C8B77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B83BC096221AB206001C8B77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B83BC097221AB227001C8B77 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B83BC098221AB23B001C8B77 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
