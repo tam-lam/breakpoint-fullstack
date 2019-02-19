@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>113939556647-hivu0msg6eh4et66kci75p0pms571k26.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.113939556647-hivu0msg6eh4et66kci75p0pms571k26</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBhzpQ42ygcDkPILBs4vehbKATxCaTbj8E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>113939556647</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>graphene.practice-full-stack</string>
+	<key>PROJECT_ID</key>
+	<string>breakpoint-fullstack</string>
+	<key>STORAGE_BUCKET</key>
+	<string>breakpoint-fullstack.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:113939556647:ios:17745b65b690183f</string>
+	<key>DATABASE_URL</key>
+	<string>https://breakpoint-fullstack.firebaseio.com</string>
+</dict>
+</plist>
