@@ -15,6 +15,7 @@
 		B83BC088221AB1E7001C8B77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83BC086221AB1E7001C8B77 /* Main.storyboard */; };
 		B83BC08A221AB1E8001C8B77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83BC089221AB1E8001C8B77 /* Assets.xcassets */; };
 		B83BC08D221AB1E8001C8B77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83BC08B221AB1E8001C8B77 /* LaunchScreen.storyboard */; };
+		B888DF36221D7164009C9AF8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B888DF35221D7164009C9AF8 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B83BC089221AB1E8001C8B77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B83BC08C221AB1E8001C8B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B83BC08E221AB1E8001C8B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B888DF35221D7164009C9AF8 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		DBCD62694FB7E846BB379D78 /* Pods-practice-full-stack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice-full-stack.release.xcconfig"; path = "Pods/Target Support Files/Pods-practice-full-stack/Pods-practice-full-stack.release.xcconfig"; sourceTree = "<group>"; };
 		F413DA7EE6C85600F4E50AE8 /* Pods_practice_full_stack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_practice_full_stack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -130,6 +132,7 @@
 		B83BC098221AB23B001C8B77 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				B888DF35221D7164009C9AF8 /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				B83BC085221AB1E7001C8B77 /* SecondViewController.swift in Sources */,
 				B83BC081221AB1E7001C8B77 /* AppDelegate.swift in Sources */,
 				B83BC083221AB1E7001C8B77 /* FirstViewController.swift in Sources */,
+				B888DF36221D7164009C9AF8 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
