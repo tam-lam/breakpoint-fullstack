@@ -11,6 +11,8 @@ import Firebase
 
 let DB_BASE = Database.database().reference()
 class DataService{
+    static let instance = DataService()
+    private init(){}
     private var _REF_BASE = DB_BASE
     private var _REF_USER = DB_BASE.child("users")
     private var _REF_GROUPS = DB_BASE.child("groups")
