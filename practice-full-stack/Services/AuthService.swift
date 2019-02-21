@@ -23,15 +23,14 @@ class AuthService {
                 return
             }
             let userData = ["provider": user.providerID,"email": user.email]
-            DataService.instance.createDBUser(uid: user.uid, userData: userData)
+            DataService.instance.createDBUser(uid: user.uid, userData: userData as Dictionary<String, Any>)
             userCreationComplete(true, nil)
         }
     }
     func loginUser(withEmail email: String, andPassword password: String, loginComplete: @escaping (_ status: Bool, _ error: Error?) -> ()){
-        Auth.auth().signIn(withEmail: email, link: password) { (authResult, error) in
-            guard let user = authResult?.user else{
+        Auth.auth().signIn(withEmail: email, password: password) { (authResult, error) in
+            if (error != nil){
                 loginComplete(false,error)
-                return
             }
             loginComplete(true, nil)
         }

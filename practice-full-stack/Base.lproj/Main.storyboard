@@ -120,6 +120,9 @@
                                                 <state key="normal" title="LOGIN WITH FB">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="signInWithFacebookWasPressed:" destination="e7g-hx-V3M" eventType="touchUpInside" id="N2z-4D-Vjx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCj-t5-o0R">
                                                 <rect key="frame" x="0.0" y="129.5" width="305" height="55"/>
@@ -127,6 +130,9 @@
                                                 <state key="normal" title="LOGIN WITH G+">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="signInWithGoogleWasPressed:" destination="e7g-hx-V3M" eventType="touchUpInside" id="Eds-EC-BAc"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CqZ-nt-oXJ">
                                                 <rect key="frame" x="0.0" y="194.5" width="305" height="54.5"/>
@@ -143,6 +149,9 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
                                         <state key="normal" title=" by email" image="emailIcon"/>
+                                        <connections>
+                                            <action selector="signInWithEmailWasPressed:" destination="e7g-hx-V3M" eventType="touchUpInside" id="SZc-mr-q4Z"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" name="darkgray"/>
@@ -258,6 +267,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bB-vp-zUC">
                                 <rect key="frame" x="16" y="28" width="21" height="22"/>
                                 <state key="normal" image="close"/>
+                                <connections>
+                                    <action selector="cancleWasPressed:" destination="Qon-J8-C8C" eventType="touchUpInside" id="Vf6-sQ-POa"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Ll5-S0-RQ2">
                                 <rect key="frame" x="40" y="70" width="295" height="153"/>
@@ -296,25 +308,33 @@
                                     <constraint firstItem="bPP-gV-n0Z" firstAttribute="leading" secondItem="Ll5-S0-RQ2" secondAttribute="leading" id="pLi-m9-5p2"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SIGN IN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dQ-80-Fdo">
-                                <rect key="frame" x="149.5" y="243" width="76" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zta-BK-8b9">
+                                <rect key="frame" x="149.5" y="243" width="76" height="33"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
-                                <color key="textColor" name="tealBlue"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="SIGN IN">
+                                    <color key="titleColor" name="tealBlue"/>
+                                </state>
+                                <connections>
+                                    <action selector="signInWasPressed:" destination="Qon-J8-C8C" eventType="touchUpInside" id="oiW-ui-DS6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" name="darkgray"/>
                         <constraints>
+                            <constraint firstItem="Zta-BK-8b9" firstAttribute="top" secondItem="Ll5-S0-RQ2" secondAttribute="bottom" constant="20" id="8Dw-1v-Bzd"/>
                             <constraint firstItem="Dhf-9M-D0G" firstAttribute="trailing" secondItem="Ll5-S0-RQ2" secondAttribute="trailing" constant="40" id="8cy-gn-6zg"/>
-                            <constraint firstItem="8dQ-80-Fdo" firstAttribute="top" secondItem="Ll5-S0-RQ2" secondAttribute="bottom" constant="20" id="9Ie-FB-o51"/>
                             <constraint firstItem="Ll5-S0-RQ2" firstAttribute="top" secondItem="3bB-vp-zUC" secondAttribute="bottom" constant="20" id="ECx-1E-DiB"/>
-                            <constraint firstItem="8dQ-80-Fdo" firstAttribute="centerX" secondItem="Dhf-9M-D0G" secondAttribute="centerX" id="Pnz-g6-GrX"/>
+                            <constraint firstItem="Zta-BK-8b9" firstAttribute="centerX" secondItem="Dhf-9M-D0G" secondAttribute="centerX" id="fOu-qE-Hb1"/>
                             <constraint firstItem="Ll5-S0-RQ2" firstAttribute="leading" secondItem="Dhf-9M-D0G" secondAttribute="leading" constant="40" id="p1Z-xK-kA9"/>
                             <constraint firstItem="3bB-vp-zUC" firstAttribute="top" secondItem="Dhf-9M-D0G" secondAttribute="top" constant="8" id="x6w-Fx-GPn"/>
                             <constraint firstItem="3bB-vp-zUC" firstAttribute="leading" secondItem="Dhf-9M-D0G" secondAttribute="leading" constant="16" id="yqz-bj-ygJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Dhf-9M-D0G"/>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="k9K-3a-aqa" id="4Kz-42-Vlf"/>
+                        <outlet property="passwordField" destination="bPP-gV-n0Z" id="VWD-zF-F1j"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oyJ-zr-eR5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
