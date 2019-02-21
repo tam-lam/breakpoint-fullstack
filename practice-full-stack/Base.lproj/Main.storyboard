@@ -48,10 +48,10 @@
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
         </scene>
-        <!--View Controller-->
+        <!--AuthVC-->
         <scene sceneID="RaL-Pp-5Kw">
             <objects>
-                <viewController id="e7g-hx-V3M" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AuthVC" id="e7g-hx-V3M" customClass="AuthVC" customModule="practice_full_stack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="74b-L5-KAb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -69,7 +69,7 @@
                                 <color key="textColor" red="0.15679130909009753" green="1" blue="0.6300868042616018" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="snX-O9-04n">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="snX-O9-04n" customClass="ShadowView" customModule="practice_full_stack" customModuleProvider="target">
                                 <rect key="frame" x="20" y="178" width="335" height="359"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="VV3-Eh-cGK">
@@ -181,10 +181,10 @@
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
         </scene>
-        <!--View Controller-->
+        <!--LoginVC-->
         <scene sceneID="bVt-wV-93a">
             <objects>
-                <viewController id="Qon-J8-C8C" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginVC" id="Qon-J8-C8C" customClass="LoginVC" customModule="practice_full_stack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UOr-bj-AW5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -202,7 +202,7 @@
                                         <color key="textColor" name="tealBlue"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k9K-3a-aqa">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k9K-3a-aqa" customClass="InsetTextField" customModule="practice_full_stack" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="37" width="295" height="50"/>
                                         <color key="backgroundColor" red="0.16247620560000001" green="0.16247620560000001" blue="0.16247620560000001" alpha="0.90000000000000002" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -212,7 +212,7 @@
                                         <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bPP-gV-n0Z">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bPP-gV-n0Z" customClass="InsetTextField" customModule="practice_full_stack" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="103" width="295" height="50"/>
                                         <color key="backgroundColor" red="0.16247620560000001" green="0.16247620560000001" blue="0.16247620560000001" alpha="0.90000000000000002" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
