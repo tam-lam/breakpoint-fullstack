@@ -21,6 +21,7 @@
 		B86BC055221E97BE00ECAF93 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BC054221E97BE00ECAF93 /* ShadowView.swift */; };
 		B86BC057221E9A9200ECAF93 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BC056221E9A9200ECAF93 /* AuthService.swift */; };
 		B888DF36221D7164009C9AF8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B888DF35221D7164009C9AF8 /* DataService.swift */; };
+		B8FDD4C0222A299B00773B1E /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDD4BF222A299B00773B1E /* MeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		B86BC054221E97BE00ECAF93 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		B86BC056221E9A9200ECAF93 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		B888DF35221D7164009C9AF8 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		B8FDD4BF222A299B00773B1E /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		DBCD62694FB7E846BB379D78 /* Pods-practice-full-stack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice-full-stack.release.xcconfig"; path = "Pods/Target Support Files/Pods-practice-full-stack/Pods-practice-full-stack.release.xcconfig"; sourceTree = "<group>"; };
 		F413DA7EE6C85600F4E50AE8 /* Pods_practice_full_stack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_practice_full_stack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -116,6 +118,7 @@
 				B83BC084221AB1E7001C8B77 /* GroupsVC.swift */,
 				B86BC04E221E930200ECAF93 /* AuthVC.swift */,
 				B86BC050221E930D00ECAF93 /* LoginVC.swift */,
+				B8FDD4BF222A299B00773B1E /* MeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8FDD4C0222A299B00773B1E /* MeVC.swift in Sources */,
 				B86BC04F221E930200ECAF93 /* AuthVC.swift in Sources */,
 				B83BC085221AB1E7001C8B77 /* GroupsVC.swift in Sources */,
 				B86BC051221E930D00ECAF93 /* LoginVC.swift in Sources */,

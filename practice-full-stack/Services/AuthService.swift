@@ -31,7 +31,9 @@ class AuthService {
         Auth.auth().signIn(withEmail: email, password: password) { (authResult, error) in
             if (error != nil){
                 loginComplete(false,error)
+                return
             }
+            
             loginComplete(true, nil)
         }
     }
