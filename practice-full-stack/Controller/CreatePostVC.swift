@@ -17,11 +17,12 @@ class CreatePostVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         textView.delegate = self
+        sendBtn.bindToKeyboard()
 
     }
     
     @IBAction func sendBtnWasPressed(_ sender: Any) {
-        if textView.text != nil && textView.text != "Say something here..." {
+        if textView.text != nil && textView.text != "Say something here..." && textView.text != ""{
             sendBtn.isEnabled = false
             DataService.instance.uploadPost(withMessage: textView.text, forUID: (Auth.auth().currentUser?.uid)!, withGroupKey: nil) { (isComplete) in
                 if isComplete {

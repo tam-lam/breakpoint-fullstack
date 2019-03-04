@@ -10,6 +10,7 @@
 		28D2DB716A85AE06D233BDA6 /* Pods_practice_full_stack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F413DA7EE6C85600F4E50AE8 /* Pods_practice_full_stack.framework */; };
 		B80B8B19221BBADE00CAD386 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B80B8B18221BBADE00CAD386 /* GoogleService-Info.plist */; };
 		B82B6124222CD029003D2607 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82B6123222CD029003D2607 /* CreatePostVC.swift */; };
+		B82B6126222CD5E7003D2607 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82B6125222CD5E7003D2607 /* UIViewExt.swift */; };
 		B83BC081221AB1E7001C8B77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83BC080221AB1E7001C8B77 /* AppDelegate.swift */; };
 		B83BC083221AB1E7001C8B77 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83BC082221AB1E7001C8B77 /* FeedVC.swift */; };
 		B83BC085221AB1E7001C8B77 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83BC084221AB1E7001C8B77 /* GroupsVC.swift */; };
@@ -29,6 +30,7 @@
 		B1BB4EE067C215826E6C4FE7 /* Pods-practice-full-stack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice-full-stack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-practice-full-stack/Pods-practice-full-stack.debug.xcconfig"; sourceTree = "<group>"; };
 		B80B8B18221BBADE00CAD386 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B82B6123222CD029003D2607 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		B82B6125222CD5E7003D2607 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIViewExt.swift; path = "practice-full-stack/Controller/UIViewExt.swift"; sourceTree = SOURCE_ROOT; };
 		B83BC07D221AB1E7001C8B77 /* practice-full-stack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "practice-full-stack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83BC080221AB1E7001C8B77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B83BC082221AB1E7001C8B77 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 		B83BC097221AB227001C8B77 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B82B6125222CD5E7003D2607 /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B82B6126222CD5E7003D2607 /* UIViewExt.swift in Sources */,
 				B8FDD4C0222A299B00773B1E /* MeVC.swift in Sources */,
 				B86BC04F221E930200ECAF93 /* AuthVC.swift in Sources */,
 				B83BC085221AB1E7001C8B77 /* GroupsVC.swift in Sources */,
