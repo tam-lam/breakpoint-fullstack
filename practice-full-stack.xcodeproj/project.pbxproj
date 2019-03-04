@@ -23,6 +23,7 @@
 		B86BC055221E97BE00ECAF93 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BC054221E97BE00ECAF93 /* ShadowView.swift */; };
 		B86BC057221E9A9200ECAF93 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BC056221E9A9200ECAF93 /* AuthService.swift */; };
 		B888DF36221D7164009C9AF8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B888DF35221D7164009C9AF8 /* DataService.swift */; };
+		B8C17DC6222D1FFD00C098A5 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C17DC5222D1FFD00C098A5 /* FeedCell.swift */; };
 		B8FDD4C0222A299B00773B1E /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDD4BF222A299B00773B1E /* MeVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		B86BC054221E97BE00ECAF93 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		B86BC056221E9A9200ECAF93 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		B888DF35221D7164009C9AF8 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		B8C17DC5222D1FFD00C098A5 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		B8FDD4BF222A299B00773B1E /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		DBCD62694FB7E846BB379D78 /* Pods-practice-full-stack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice-full-stack.release.xcconfig"; path = "Pods/Target Support Files/Pods-practice-full-stack/Pods-practice-full-stack.release.xcconfig"; sourceTree = "<group>"; };
 		F413DA7EE6C85600F4E50AE8 /* Pods_practice_full_stack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_practice_full_stack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +135,7 @@
 			children = (
 				B86BC052221E952000ECAF93 /* InsetTextField.swift */,
 				B86BC054221E97BE00ECAF93 /* ShadowView.swift */,
+				B8C17DC5222D1FFD00C098A5 /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B82B6126222CD5E7003D2607 /* UIViewExt.swift in Sources */,
+				B8C17DC6222D1FFD00C098A5 /* FeedCell.swift in Sources */,
 				B8FDD4C0222A299B00773B1E /* MeVC.swift in Sources */,
 				B86BC04F221E930200ECAF93 /* AuthVC.swift in Sources */,
 				B83BC085221AB1E7001C8B77 /* GroupsVC.swift in Sources */,
