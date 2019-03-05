@@ -19,7 +19,5 @@ class FeedCell: UITableViewCell {
         self.emailLbl.text = email
         self.contentLbl.text = content
     }
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
+
 }

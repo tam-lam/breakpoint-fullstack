@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Firebase
 class MeVC: UIViewController {
 
     @IBOutlet weak var profileImage: UIImageView!
@@ -19,6 +19,18 @@ class MeVC: UIViewController {
     }
     
     @IBAction func signOutBtnWasPressed(_ sender: Any) {
+        let logoutPopUp = UIAlertController(title: "Logout?", message: "Are you sure?", preferredStyle: .actionSheet)
+        let logoutAction = UIAlertAction(title: "Logout", style: .destructive) { (buttonTapped) in
+            do{
+                try Auth.auth().signOut()
+                let authVC = self.storyboard?.instantiateViewController(withIdentifier: "AuthVC")
+                self.present(authVC!, animated: true, completion: nil)
+            }catch{
+                print(error)
+            }
+        }
+        logoutPopUp.addAction(logoutAction)
+        present(logoutPopUp, animated: true, completion: nil)
     }
 
 }
