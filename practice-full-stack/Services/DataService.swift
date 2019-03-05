@@ -31,6 +31,17 @@ class DataService{
         return _REF_FEED
     }
     
+    func getUsername(forUID uid: String, handler: @escaping (_ username:String) -> ()){
+        REF_USER.observeSingleEvent(of: .value) { (userSnapShot) in
+            guard let userSnapShot = userSnapShot.children.allObjects as? [DataSnapshot] else {return}
+            for user in userSnapShot{
+                if user.key == uid{
+                    handler(user.childSnapshot(forPath: "email").value as! String)
+                }
+            }
+        }
+    }
+    
     func createDBUser(uid:String, userData: Dictionary<String,Any>){
         REF_USER.child(uid).updateChildValues(userData)
     }
