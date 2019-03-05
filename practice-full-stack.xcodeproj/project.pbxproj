@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		28D2DB716A85AE06D233BDA6 /* Pods_practice_full_stack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F413DA7EE6C85600F4E50AE8 /* Pods_practice_full_stack.framework */; };
 		B80B8B19221BBADE00CAD386 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B80B8B18221BBADE00CAD386 /* GoogleService-Info.plist */; };
+		B825CD5E222F1CE50089B758 /* CreateGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825CD5D222F1CE50089B758 /* CreateGroupVC.swift */; };
 		B82B6124222CD029003D2607 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82B6123222CD029003D2607 /* CreatePostVC.swift */; };
 		B82B6126222CD5E7003D2607 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82B6125222CD5E7003D2607 /* UIViewExt.swift */; };
 		B83BC081221AB1E7001C8B77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83BC080221AB1E7001C8B77 /* AppDelegate.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		B1BB4EE067C215826E6C4FE7 /* Pods-practice-full-stack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice-full-stack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-practice-full-stack/Pods-practice-full-stack.debug.xcconfig"; sourceTree = "<group>"; };
 		B80B8B18221BBADE00CAD386 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B825CD5D222F1CE50089B758 /* CreateGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupVC.swift; sourceTree = "<group>"; };
 		B82B6123222CD029003D2607 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		B82B6125222CD5E7003D2607 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIViewExt.swift; path = "practice-full-stack/Controller/UIViewExt.swift"; sourceTree = SOURCE_ROOT; };
 		B83BC07D221AB1E7001C8B77 /* practice-full-stack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "practice-full-stack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +130,7 @@
 				B86BC050221E930D00ECAF93 /* LoginVC.swift */,
 				B8FDD4BF222A299B00773B1E /* MeVC.swift */,
 				B82B6123222CD029003D2607 /* CreatePostVC.swift */,
+				B825CD5D222F1CE50089B758 /* CreateGroupVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				B86BC051221E930D00ECAF93 /* LoginVC.swift in Sources */,
 				B86BC057221E9A9200ECAF93 /* AuthService.swift in Sources */,
 				B83BC081221AB1E7001C8B77 /* AppDelegate.swift in Sources */,
+				B825CD5E222F1CE50089B758 /* CreateGroupVC.swift in Sources */,
 				B86BC055221E97BE00ECAF93 /* ShadowView.swift in Sources */,
 				B82B6124222CD029003D2607 /* CreatePostVC.swift in Sources */,
 				B83BC083221AB1E7001C8B77 /* FeedVC.swift in Sources */,
