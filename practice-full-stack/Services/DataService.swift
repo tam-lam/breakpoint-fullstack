@@ -9,6 +9,8 @@
 import Foundation
 import Firebase
 
+let statement = "this is technically a line of cone"
+
 let DB_BASE = Database.database().reference()
 class DataService{
     static let instance = DataService()
